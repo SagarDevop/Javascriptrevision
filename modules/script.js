@@ -315,6 +315,435 @@
 //     console.log(i);
 // }
 
+
+
+// practise of it ----------------===>
+
+
+// for(i=1; i<=10; i++){
+//     console.log(i)
+// }
+
+// for(i=10; i>=1; i--){
+//     console.log(i)
+// }
+
+// let i = 1;
+// let n = Number(prompt("enter limit"))
+
+// while(i<=n){
+//     console.log(i)
+//     i++
+// }
+
+// let i = 1;
+// let n = Number(prompt("enter limit"))
+
+// while(i<=n){
+//     if(i%2 === 0 ){
+//         console.log(i)
+//     }
+//     i++
+// }
+
+// let i = 1;
+// let n = Number(prompt("enter limit"))
+
+// while(i<=n){
+//     if(i%2 !== 0 ){
+//         console.log(i)
+//     }
+//     i++
+// }
+
+// let i = 1;
+// let n = Number(prompt("enter limit"))
+// let sum = 0;
+
+// while(i<=n){
+//     sum = sum+i
+//     i++
+// }
+// console.log(sum)
+
+// let i = 1;
+// let n = Number(prompt("enter limit"))
+// let product = 1;
+
+// while(i<=n){
+//     product = product * i
+
+//     i++
+// }
+// console.log(product)
+
+
+// let a = Number(prompt('enter number'));
+
+// for(i=1; i<=10; i++){
+//     console.log(`${a} X ${i} = ${a*i}`)
+// }
+
+// let n = Number(prompt("enter number"));
+// let count = 0
+
+// for(i=1; i<=n; i++){
+//     count++
+// }
+// console.log(count)
+
+// let n = Number(prompt("enter number"));
+
+// for(i=1; i<=n; i++){
+//     console.log(`the square of ${i} is ${i*i}`)
+// }
+
+// let n = Number(prompt("enter number"));
+
+// for(i=1; i<=n; i++){
+//     console.log(`the cube of ${i} is ${i*i*i}`)
+// }
+
+// let n = Number(prompt("enter number"));
+
+// for(i=1; i<=n; i++){
+//     if(i%3 === 0 && i%5 === 0){
+//         console.log(i)
+//     }
+// }
+
+// let n = Number(prompt("enter number"));
+
+// for(i=1; i<=n; i++){
+//     if(i%2 === 0){
+//         console.log(`${i} is a even`)
+//     }
+//     else{
+//         console.log(`${i} is a odd`)
+//     }
+// }
+
+// let n = Number(prompt("enter number"));
+
+// for(i=1; i<=n; i++){
+//     if(i%5 === 0){
+//       continue
+// }
+// console.log(i)
+// }
+
+// let n = Number(prompt("enter number"));
+
+// for(i=1; i<=n; i++){
+    
+//      console.log(i)
+//    if(i===50){
+        
+//         break;    
+//     }
+// }
+
+
+// let n = 12345
+// let count = 0
+
+// while(n>0){
+//     n = Math.floor(n/10)
+//     count++
+// }
+
+// console.log(count)
+
+// let n = 1234
+
+// let sum = 1
+
+// while(n>0){
+//     let digit = (n%10)
+//     sum = sum*digit
+//     n = Math.floor(n/10)
+// }
+
+// console.log(sum)
+
+// let n = 5678
+
+// while(n>0){
+//     let digit = n%10
+//     console.log(digit)
+//     n = Math.floor(n/10)
+
+// }
+
+// let n = 12345
+
+// let reverse = 0
+
+// while(n>0){
+//     let digit = n%10
+//     reverse = reverse*10 + digit
+//     n = Math.floor(n/10)
+
+// }
+
+// console.log(reverse)
+
+// let intialnumber = 121;
+// let n = 121;
+// let reverse = 0;
+
+// while(n>0){
+//     let digit = n % 10
+//     reverse = reverse*10 + digit
+//     n = Math.floor(n/10)
+
+// }
+// if(intialnumber === reverse){
+//   console.log("palindrom")
+// }
+
+// let intialnumber = 123;
+// let n = 123;
+// let reverse = 0;
+
+// while(n>0){
+//     let digit = n%10
+//     reverse = reverse * 10 + digit
+//     n =  Math.floor(n/10)
+// }
+
+// if(intialnumber === reverse){
+//     console.log("palindrome")
+// }
+// else{
+//     console.log( "not palindrome")
+// }
+
+// let n = 58394;
+// let largest = 0;
+
+// while(n>0){
+//     let digit = n%10;
+//     if(largest < digit){
+//         largest = digit;
+//     }
+//     n = Math.floor(n/10);
+
+// }
+// console.log(largest)
+
+// let n = 58394
+
+// let smallest = 9;
+
+// while(n>0){
+//     let digit = n%10
+//     if(smallest < digit){
+//         smallest = smallest;
+//     }
+//     else{
+//         smallest = digit
+//     }
+//     n = Math.floor(n/10)
+// }
+
+// console.log(smallest)
+
+// let n = 123456
+// let evencount = 0;
+// let oddcount = 0;
+
+// while(n>0){
+//     let digit = n%10;
+//     if(digit%2 === 0){
+//         evencount++
+//     }
+//     else{
+//         oddcount++
+//     }
+//     n = Math.floor(n/10)
+// }
+
+// console.log(`the odd count ${oddcount} and even count ${evencount}`)
+
+// let n = 9876;
+
+// while (n >= 10) {
+//     n = Math.floor(n / 10);
+// }
+
+// console.log(n);
+
+// let n = 153
+// let sum = 0
+
+// while (n>0){
+//     let digit = n%10;
+//     sum = sum + (digit*digit*digit)
+//     n = Math.floor(n/10)
+
+// }
+// console.log(sum)
+
+// let n = Number(prompt("enter the number"));
+// let isprime = true;
+
+// if (n<=1){
+//     isprime = false;
+// }
+// else{
+//     for(i=2; i<n; i++){
+//         if(n%i === 0){
+//             isprime = false;
+//             break;
+//         }
+    
+//     }
+// }
+
+// if (isprime) {
+//     console.log("Prime Number");
+// } else {
+//     console.log("Not a Prime Number");
+// }
+
+// let n = Number(prompt("enter the number"));
+// let pro = 1
+
+// for(i=n; i>=1; i--){
+//     pro = pro*i
+// }
+
+// console.log(pro)
+
+// let n = 5
+
+// for(i=1; i<=n; i++){
+//     let pattern = ""
+
+//     for(j=1; j<=i; j++){
+//         pattern += j;
+//     }
+
+//     console.log(pattern);
+// }
+
+// let n = 5
+
+// for(i = 1; i<=n; i++){
+//     let row = ""
+    
+//     for(j = 5; j>=6-i; j--){
+//         row += j;
+//     }
+//     console.log(row)
+// }
+
+// let n = 5;
+
+// for(i=1; i<=n; i++){
+//     let row = ""
+
+//     for(j=1; j<=i; j++){
+//         row += String.fromCharCode(64+j)
+//     }
+
+//     console.log(row)
+// }
+
+// let  n = 5;
+
+// for(i=1; i<=n; i++){
+//     let row = ""
+//     for(j=1; j<=i; j++){
+//             row += "#"
+//     }
+//     console.log(row)
+
+// }
+
+// let n = 5;
+
+// for(i=1; i<=n; i++){
+//     let row = "";
+
+//     for(j=1; j<=i+1; j++){
+//         row += i ;
+
+//     }
+    
+//     console.log(row)
+// }
+
+// let n = 5;
+
+// for(i=1; i<=n; i++){
+//     let row ="";
+
+//     for(j=i; j<=n; j++){
+//         row += String.fromCharCode(64+i)
+//     }
+
+//     console.log(row)
+// }
+
+// let n = 5;
+
+// for(i=1; i<=n; i++){
+//     let row = "";
+
+//     for(j = 5; j>=6-i; j--){
+//         row += j;
+//     }
+//     console.log(row)
+// }
+
+// let n = 5
+
+// for(i=1; i<=n; i++){
+//     let row = "";
+
+//     for(j = 5; j>=i; j--){
+//         row += j ;
+//     }
+//     console.log(row)
+// }
+
+// let n = 5;
+
+// for(i=1; i<=n; i++){
+//     let row = "";
+
+//     for(j=1; j<=6-i; j++){
+//         row +=j;
+//     }
+//     console.log(row)
+// }
+
+// let n = 5;
+// let num = 1;
+
+// for (let i = 1; i <= n; i++) {
+//     let row = "";
+
+//     for (let j = 1; j <= i; j++) {
+//         row += num;
+//         num++;
+//     }
+
+//     console.log(row);
+// }
+
+
+
+
+
+
+
+
+
+
+
 // -------------------------------------->
 
 // FUNCTIONS
