@@ -734,6 +734,48 @@
 //     console.log(row);
 // }
 
+// LEETCODE problems
+
+//FizzBuzz
+
+// let n = Number(prompt("enter the number"))
+
+// for(i=1; i<=n; i++){
+//     if(i%3=== 0 && i%5 === 0){
+//         console.log(`FizzBuzz`)
+//     }
+//     else if (i%3 === 0){
+//         console.log("Fizz")
+//     }
+//     else if( i%5 === 0 ){
+//         console.log('Buzz')
+//     }
+//     else{
+//         console.log(i)
+//     }
+// }
+
+// Palindrome
+
+
+// let n = Number(prompt("enter the number"))
+// let intailnumber = n
+// let reverse = 0
+
+// while(n>0){
+//     let digit = n % 10;
+//     reverse = reverse * 10 + digit;
+//     n = Math.floor(n/10);
+    
+// }
+// if(intailnumber === reverse){
+//     console.log(`${intailnumber} is palindrome number `)
+// }
+// else{
+//     console.log(`${intailnumber} is not palindrome number`)
+// }
+
+
 
 
 
