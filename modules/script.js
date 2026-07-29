@@ -1029,4 +1029,130 @@
 // console.log(ten(100));
 
 
+// Array --------------------> 
+
+
+// create
+
+let arr = [1,2,3,4,1,5]
+
+// console.log(4) // we get 5 as it from 0
+
+// Array methods 
+
+// push() => it add anything(value) at the end of array 
+
+// arr.push(23)
+
+// pop() = last se vlaue ko hata deta hai
+
+// shift() = start me value hata remove kr deta hai 
+
+// unshift()= start me vlaue add kr deta hai 
+
+// splice()  = ye kahi se bhi vlaue ko hata deta hai
+
+//arr.splice(2,1)  2 means index and 1 means kitni value hatani 1, 2
+
+// slice() = ye value remove krta bs us arr me nhi krta nayi arr create krta hai
+
+
+// let newarr = arr.slice(0,4) // 0 means start kaha se krna aur 4 mean kaha tk jana usese ik kam jata hai 
+
+// reverse() = reverse kr dega array 
+
+// sort() == help to sort array in accending or decending order
+
+// let sr = arr.sort(function(a,b){
+//     // return a-b; // accending order 
+//     return b-a ; decending order
+// })
+
+// foreach = is a loop used with array to get each element once 
+//and we can do whatever we want to do 
+
+// arr.forEach(function(val){
+//     console.log(val)
+// })
+
+// arr.forEach(element => {
+//     console.log(element+10)
+// });
+
+
+// map()
+// map srf tb use krna hai jb apko ek naya array bnnana hai pichle afray ke basis pr
+
+// map dikte hi sath mn e ik blank array bna liya kare
+
+// let newmaparr = arr.map(val =>{
+//     return 12
+// })
+
+// let newarr = arr.map(function(val){
+//     if(val>10) return val;
+// })
+
+// here 2 and 3 index me undefined ayega mean value remove nhi hongi  auto 
+
+// let newarr = arr.map(function(val){
+//     if(val>2) return val;
+//     return 0;
+// })
+
+
+// filter
+// filter bhi naye array banata hai bs ye condtion ke hisab se arr ke elemnet ko remove krdeta h
+// ye bhi vlaue retuen krta hai  and map ki trh isme sare elemt hona jaruri nhi 
+
+// let array = [2,4, 5,6,3,8,1]
+
+// let newarr = array.filter(val => {
+//     if(val%2 === 0) return val;
+// })
+// ye undefined nhi deta
+
+// reduce()
+
+// we use reduce jb hume ik pure array se ik vlaue banani ho jaise add krna ho sare element minus product 
+// ye bhi new array banata hai
+
+// let ans = arr.reduce(function(accumulator, val){
+//     return accumulator + val
+// }, 0)// yaha pe accumelator ik varibale hai iska nam kuch bhi ho skta hai oto 
+
+// find() find ye vlaue return krta jo humare cindtion me match hoti hai aur arrat me phle ajaye agr array me do jgh condition match ho rahi to phle jgh ruk jaye ga
+
+// let va = arr.find(function(val){
+//     return val == 1
+// })
+
+// some()  some ye check krta ki arr ke elemnt apke condition pass kr rhae koi ik bhi to tru ajayega 
+
+// let va  = arr.some(function(val){
+//     return val>3
+// })
+
+// every() just opposite od some ye agr puri condition match hongi tabhi true dega
+// it is like and opertor
+
+// destructing 
+
+// let [a,b,,c] = arr
+
+// spreed opertor 
+
+// ...
+
+// hum jante hai ki hum direct arr nhi copy kr skte to uske liye spread opertor ki mdd lete hia 
+
+// let arr2 = [...arr]
+
+// practise
+
+// let fr = ["apple", "banana"]
+
+// fr[1] ="kiwi"
+
+
 
