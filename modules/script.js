@@ -1034,7 +1034,7 @@
 
 // create
 
-let arr = [1,2,3,4,1,5]
+// let arr = [1,2,3,4,1,5]
 
 // console.log(4) // we get 5 as it from 0
 
@@ -1153,6 +1153,186 @@ let arr = [1,2,3,4,1,5]
 // let fr = ["apple", "banana"]
 
 // fr[1] ="kiwi"
+
+// practise
+
+// let arr1 = [1,2,3,4,5,6,7,8,9]
+// let sum = 0;
+// let largest = 0
+// let smallest = null
+
+
+
+// console.log(arr1.length)
+// console.log(arr1.reverse())
+
+
+// console.log(sum/2)
+
+// console.log(arr1.)
+
+// for(i = 0; i<arr1.length +1; i++){
+//   if(largest< i)
+//   {
+//     largest = i
+//   }
+//   else{
+//     largest = largest
+//   }
+// }
+
+// console.log(largest)
+
+
+
+// let smallest = arr[0];
+
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < smallest) {
+//         smallest = arr[i];
+//     }
+// }
+
+// console.log(smallest);
+
+
+
+// for(let i = 0; i < arr.length; i++){
+//   if(arr[i]%2 === 0)
+//   {
+//     count++
+//   }
+// }
+
+// console.log(count)
+
+// let arr = [8, 3, 12, 5, 1, 9];
+// let count = 0
+
+// for(let i = 0; i < arr.length; i++){
+//   if(arr[i]%2 != 0)
+//   {
+//     count++
+//   }
+// }
+// console.log(count)
+
+// let arr = [10, -5, 0, 7, -2, 0, 15, -8];
+// let zcount = 0;
+// let ncount = 0;
+// let pcount = 0;
+
+
+// for(i = 0; i< arr.length; i++){
+//   if(arr[i] === 0){
+//     zcount++
+//   }
+//   else if(arr[i] >0) {
+//     pcount++
+//   }
+//   else{
+//     ncount++
+//   }
+// }
+
+// console.log(`aero coumt ${zcount} and postive ${pcount} and negative are ${ncount}`);
+
+// let arr = [3, 8, 12, 7, 5, 20];
+
+// let a = arr.some(function(val){
+//   if(val === 7) return val
+// })
+
+// console.log(a)
+
+// let arr = [4, 9, 15, 2, 8, 15];
+
+// for(i = 0; i< arr.length; i++){
+//   if(arr[i] === 15)
+//     console.log(i)
+// }
+
+// let arr = [3, 8, 11, 14, 17, 20, 25, 30];
+
+// for(i = 0; i<arr.length; i++){
+//   if(arr[i] % 2 === 0 ){
+//     console.log(arr[i])
+//   }
+// }
+
+
+// let arr = [2, 5, 8, 11, 14, 17, 20, 23];
+
+// for(i = 0; i<arr.length; i++){
+//   if(arr[i] % 2 != 0 ){
+//     console.log(arr[i])
+//   }
+// }
+
+// let arr = [2, 4, 6, 8, 10];
+
+// // let newarr = arr.map(function(val){
+// //   return val*2
+// // })
+// // let newarr = arr.map( (val) => {
+// //       return val*2
+// // })
+
+// console.log(newarr)
+
+// let arr = [2, 3, 4, 5, 6];
+
+// let newarr = arr.map((val) =>{
+//   return val*val
+// })
+
+// console.log(newarr)
+
+
+// let arr = [5, 2, 5, 8, 5, 3, 9, 5];
+// let count = 0
+// for(i = 0; i < arr.length; i++){
+//   if(arr[i] === 5){
+//     count++
+//   }
+// }
+
+// console.log(count)
+
+// let arr = [10, 20, 30, 40, 50];
+
+// let arr2 =  [... arr]
+
+// console.log(arr2)
+
+let arr = [1, 2, 3, 4, 5];
+
+let result = [];
+
+for (let i = arr.length - 1; i >= 0; i--) {
+    result.push(arr[i]);
+}
+
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
