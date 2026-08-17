@@ -1305,15 +1305,94 @@
 
 // console.log(arr2)
 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-let result = [];
+// let result = [];
 
-for (let i = arr.length - 1; i >= 0; i--) {
-    result.push(arr[i]);
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     result.push(arr[i]);
+// }
+
+// console.log(result);
+
+// let arr = [12, 5, 8, 20, 15, 3];
+
+// let smallest = arr[0]
+
+// for( let i = 0; i < arr.length; i++){
+//     if(smallest > arr[i]){
+//         smallest = arr[i]
+//     }
+// }
+
+// console.log(smallest)
+
+
+// let arr = [12, 5, 8, 20, 15, 3];
+
+// let smallest = Infinity
+
+// let secondsmallest = Infinity
+
+// for( let i = 0; i < arr.length; i++){
+//     if(smallest > arr[i]){
+//         secondsmallest = smallest
+//         smallest = arr[i]
+//     }
+//     else if(arr[i] < secondsmallest && arr[i] !== smallest ){
+//         secondsmallest = arr[i];
+//     }
+// }
+
+// console.log(smallest)
+// console.log(secondsmallest)
+
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// const un = [...new Set(arr)]
+
+// console.log(un)
+
+
+
+
+
+
+// object 
+
+// let obj ={
+//     name: "sgr",
+//     age:2
+// }
+
+// obj.age
+// obj['age']
+
+// we can access it in two way
+
+
+// for in loop
+
+let obj ={
+    name: "sagar",
+    age: 22,
+    email:"sagarsingh44818@gmail.com"
 }
 
-console.log(result);
+// for(let key in obj){
+//     console.log(key)  // this will print key of object not value 
+//     console.log(obj[key]) // this will print value as first
+// }
+
+// console.log(Object.keys(obj))
+
+
+
+let obj2 = { eae : 'sae' , ... obj}
+console.log(obj2)
+
+
+
+ 
 
 
 
